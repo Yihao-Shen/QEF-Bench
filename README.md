@@ -23,9 +23,22 @@ Hardware backends have separate dependencies.
 
 This is a source release, not a claim of independently reproduced paper results.
 Planner/importer unit tests and Python syntax checks are provided. Hardware
-experiments and C++/CUDA builds were not rerun for this release. Historical
-experiment datasets, Arm power acquisition and an end-to-end QEF coverage
-calculator are not bundled. The importer produces intermediate measurement records.
+experiments and C++/CUDA builds were not rerun for this release. Six historical trace sets are available in [the data archive](data/historical).
+Their replay computes per-dataset coverage with explicit boundaries; it does not
+reproduce all final paper figures. Arm power acquisition is not bundled.
+The importer produces intermediate measurement records.
+
+## Replay archived measurements
+
+The [historical archive](data/historical) includes 468 CPU/GPU configuration rows,
+metadata, integrity hashes and a hardware-free coverage replay:
+
+```sh
+python tools/replay_historical.py --out results/historical-coverage.json
+```
+
+See the archive README for selection, measurement units and known differences
+from the current workload table.
 
 ## Audit a legacy GPU run
 

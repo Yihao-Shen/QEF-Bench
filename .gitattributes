@@ -1,1 +1,2 @@
 benchmarks/** -text
+data/historical/** -text

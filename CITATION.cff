@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software when using QEF-Bench."
+title: "QEF-Bench: QoS-constrained RAN compute benchmarking"
+type: software
+authors:
+  - family-names: Shen
+    given-names: Yihao
+repository-code: "https://github.com/Yihao-Shen/QEF-Bench"
+license: Apache-2.0
+abstract: "CPU, GPU and Arm benchmark sources and workload planning tools for QoS-constrained RAN compute measurements. Third-party source licenses are documented separately."

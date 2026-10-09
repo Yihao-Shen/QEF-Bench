@@ -1,0 +1,20 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "benchmarks/arm/README.md": "39883345e790883d8c86ca0bfe07b5dc4ce8021d2d31ef31b61b30e582821a9a",
+    "benchmarks/arm/source/tests/benchmarks/phy/generic_functions/dft_processor_benchmark.cpp": "c7da89e68bdb709e66f9a2089883767bc923ad85ace20a0545aff56bc8c79259",
+    "benchmarks/arm/source/tests/benchmarks/phy/upper/channel_coding/ldpc/CMakeLists.txt": "579741b75b1f7ca08d5ce66f0b87c5b3aff248e07f43b346508b55e1791317fc",
+    "benchmarks/arm/source/tests/benchmarks/phy/upper/channel_coding/ldpc/ldpc_decoder_benchmark.cpp": "448374daf353bcf40e0a5b3b9eef0c16e00980c7c0d5eb6a05c30765b12646bb",
+    "benchmarks/arm/source/tests/benchmarks/phy/upper/channel_coding/ldpc/ldpc_rate_dematcher_benchmark.cpp": "a4efc3c89ca66aa4ccd0a0003a7e82254e51bd15d9451c1342417e46fc881f54",
+    "benchmarks/arm/source/tests/benchmarks/phy/upper/channel_modulation/modulation_chain_benchmark.cpp": "07dbe38ec40267a973ff24fd56cb2bfe0693a72e14b7494dfaeb12071c3bb793",
+    "benchmarks/arm/source/tests/benchmarks/phy/upper/channel_processors/pusch/pusch_processor_benchmark.cpp": "f6bb30b1a747dd94b1a7359459f7a9d43bcc5960c398e550b49377370810d545",
+    "benchmarks/arm/source/tests/benchmarks/phy/upper/equalization/channel_equalizer_benchmark.cpp": "737bf501f959e2fdbb63e27403416e27f8f3cb9b9a779cba73609e70ba686918",
+    "benchmarks/cpu/ldpc_decoder_energy_benchmark_cb_cells.cpp": "57bb3c054ab3e493237bc51744b7a6a89ad0768564e53a80303207260ede526a",
+    "benchmarks/cpu/ldpc_decoder_single_cb_scan.cpp": "6e73218a2fd2e3ebec5f7a512273451b09be0af200e57c395a098a2b9bf564d9",
+    "benchmarks/cpu/qef-targets.cmake": "9fc0cedf2b5a72bd01d4b02703112a52fff04feebfeb778cdf4e120ad6398512",
+    "benchmarks/cpu/scan_ldpc_cpu_real_tbs.py": "3185e771c874caa1aa2a67e5483c38e73762d2b3248d29b6a5510170ec2d58ee",
+    "benchmarks/gpu/ldpc_bench_3.4_tbs_latency.py": "e929561c6b5d331131cd35fb4478f4a9f3caadbcadc74056df0d5bb79e3e0ff4",
+    "benchmarks/gpu/ldpc_scan_k_iters_energy_gpu.py": "0b3221060f43c1ea01b35ef28642c3b1968b6b3df98f5849cb41b5ead22f721f",
+    "benchmarks/gpu/scan_ldpc_gpu_real_tbs.py": "114d75acb2a90dff9c5b3869a3a372cd51988be2d18f9d8c87028003eaf5f239"
+  }
+}
